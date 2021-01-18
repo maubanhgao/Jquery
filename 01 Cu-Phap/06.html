@@ -7,18 +7,17 @@
     <script>
         $(function () {
             $("button").click(function () {
-                $("p").remove(".test, .demo");
+                $("p:first").hide();
             });
         });
     </script>
 </head>
 <body>
+<h2>This is a heading</h2>
+
 <p>This is a paragraph.</p>
-<p class="test">This is p element with class="test".</p>
-<p class="test">This is p element with class="test".</p>
-<p class="demo">This is p element with class="demo".</p>
+<p>This is another paragraph.</p>
 
-<button>Remove all p elements with class="test" and class="demo"</button>
-
+<button>Click me</button>
 </body>
 </html>

@@ -5,20 +5,24 @@
     <title>JQuery</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
+        //C2
+        // $(document).ready(function () {
+        //     $("button").click(function () {
+        //         $("#test").hide();
+        //     });
+        // });
+        //C2
         $(function () {
             $("button").click(function () {
-                $("p").remove(".test, .demo");
+                $("#test").hide();
             });
         });
     </script>
 </head>
 <body>
+<h2>This is a heading</h2>
 <p>This is a paragraph.</p>
-<p class="test">This is p element with class="test".</p>
-<p class="test">This is p element with class="test".</p>
-<p class="demo">This is p element with class="demo".</p>
-
-<button>Remove all p elements with class="test" and class="demo"</button>
-
+<p id="test">This is another paragraph.</p>
+<button>Click me</button>
 </body>
 </html>

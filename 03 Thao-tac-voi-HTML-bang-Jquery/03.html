@@ -7,14 +7,14 @@
     <script>
         $(function () {
             $("button").click(function () {
-                alert("Value input: " + $("#test").val());
+                alert("Href: " + $("#w3s").attr("href"));
             });
         });
     </script>
 </head>
 <body>
-<p>Name: <input type="text" id="test" value="Mickey Mouse"></p>
+<p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
 
-<button>Show Value</button>
+<button>Show href Value</button>
 </body>
 </html>
