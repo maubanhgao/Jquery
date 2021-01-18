@@ -9,7 +9,7 @@
 Trong lập trình web thì chúng ta có những sự kiện sau đây :
 
 - **click** : khi người dùng click vào một button trên website
-- **dbclick** : khi người dùng nhấn đúp (2 clicks liên tục)
+- **dblclick** : khi người dùng nhấn đúp (2 clicks liên tục)
 - **mouseenter** : khi con chuột di chuyển vào vùng được chọn. Ví dụ như ta có 1 lable là màu xanh. Khi con trỏ (chuột) di chuyển vào vùng màu xanh thì nó sẽ phát sinh sự kiện mouseenter.
 - **mouseleave** : ngược với mouseenter khi người dùng di chuyển chuột ra khỏi vùng được chọn thì phát sinh sự kiện
 - **keypress** : phát sinh sự kiện khi người dùng nhấn bất kỳ một phím nào trên bàn phím
