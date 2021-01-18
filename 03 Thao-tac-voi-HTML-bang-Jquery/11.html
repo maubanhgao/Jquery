@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("button").click(function () {
+                $("p").remove(".test, .demo");
+            });
+        });
+    </script>
+</head>
+<body>
+<p>This is a paragraph.</p>
+<p class="test">This is p element with class="test".</p>
+<p class="test">This is p element with class="test".</p>
+<p class="demo">This is p element with class="demo".</p>
+
+<button>Remove all p elements with class="test" and class="demo"</button>
+
+</body>
+</html>
